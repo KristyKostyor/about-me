@@ -1,0 +1,182 @@
+*{
+   box-sizing: border-box;
+   font-family: 'Lato', Arial, sans-serif;
+   transition: 0.3s ease-in-out;
+
+}
+body{
+   margin: 0;
+   color:  #939393;
+}
+html,body{
+   min-height: 100%;
+   height: 100%;
+}
+
+h1 {
+   color: #939393;
+   margin: 0;
+}
+span{
+   color: #F8BB10;
+   text-transform: uppercase;
+
+}
+ul{
+   padding: 0;
+}
+li{
+   font-size: 18px;
+   list-style-type: none;
+   margin: 20px 40px 0 0;
+   display: inline-block;
+}
+
+h2{   color: #939393;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0;
+
+
+}
+h3{
+      font-weight: 600;
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #727272;
+      margin: 0 0 5px;
+      display: inline-block; 
+}
+
+p{
+   
+   font-size: 18px;
+   color: #939393;
+}
+
+hr{
+   border: none;
+   border-top: 1px solid #c9c9c9;
+}
+article{
+   display: flex;
+
+
+}
+.right-block{
+   width: 70%;
+   padding: 35px 40px 35px 50px;
+   background-color: #fafafa;
+}
+
+.left-block{
+   width: 30%;
+   padding: 35px 40px 35px 40px;
+   background-color: #f8f8f8;
+   text-align: right;
+}
+.white-block{
+   background-color: white;
+}
+.gray-block {
+   background-color: #fcfcfc;
+}
+
+.flex-container{
+   display: flex;
+   flex-wrap: wrap;
+
+}
+
+
+.flex-item{
+   width: 95%;
+   margin-bottom: 20px;
+   
+}
+
+
+.number{
+   font-size: 20px;
+   font-weight: 600;
+   color: #F8BB10;
+   padding-right: 20px;
+}
+
+.avatar-block{
+   display: table;
+}
+.avatar-img{
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+}
+img.avatar{
+   width: 100%;
+   max-width: 280px;
+}
+
+.name{
+   margin: 90px 0 80px;
+}
+
+.profesion-block{
+   display: flex;
+   justify-content: space-between;
+
+}
+.social-icon{
+   
+   align-items: flex-end;
+
+}
+.social_icon {
+   height: 35px;
+   margin: 0 2px;
+
+
+}
+.subtitle{
+   margin: 0;
+}
+   footer{
+      margin: 0;
+
+   }
+
+
+@media (max-width: 750px) {
+      
+.flex-container{
+               display: flex;
+               flex-direction: column;
+               flex-wrap: wrap;
+   }
+
+.left-block, .right-block {
+               width: 100%;
+               border-bottom: 1px solid #ececec;
+               border-bottom: 1px solid #ececec;
+               text-align: left;
+               padding: 15px 40px;
+}
+.flex-item{
+   width: 80%;
+   margin-bottom: 20px;
+   
+}
+}
+@media all and (max-width: 550px) {
+   .social-icon{
+   
+      align-items: center;
+   
+   }
+.profesion-block{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+}
+}
